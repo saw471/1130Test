@@ -13,6 +13,7 @@
 		B7BF08DD21B0D96E00495F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BF08DC21B0D96E00495F33 /* Assets.xcassets */; };
 		B7BF08E021B0D96E00495F33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BF08DE21B0D96E00495F33 /* LaunchScreen.storyboard */; };
 		B7BF08E321B0D96E00495F33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BF08E221B0D96E00495F33 /* main.m */; };
+		B7BF08EB21B0DBE300495F33 /* ShowLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BF08EA21B0DBE300495F33 /* ShowLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B7BF08DF21B0D96E00495F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7BF08E121B0D96E00495F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7BF08E221B0D96E00495F33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7BF08E921B0DBE300495F33 /* ShowLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowLog.h; sourceTree = "<group>"; };
+		B7BF08EA21B0DBE300495F33 /* ShowLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				B7BF08D421B0D96D00495F33 /* AppDelegate.m */,
 				B7BF08D621B0D96D00495F33 /* ViewController.h */,
 				B7BF08D721B0D96D00495F33 /* ViewController.m */,
+				B7BF08E921B0DBE300495F33 /* ShowLog.h */,
+				B7BF08EA21B0DBE300495F33 /* ShowLog.m */,
 				B7BF08D921B0D96D00495F33 /* Main.storyboard */,
 				B7BF08DC21B0D96E00495F33 /* Assets.xcassets */,
 				B7BF08DE21B0D96E00495F33 /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 				B7BF08D821B0D96D00495F33 /* ViewController.m in Sources */,
 				B7BF08E321B0D96E00495F33 /* main.m in Sources */,
 				B7BF08D521B0D96D00495F33 /* AppDelegate.m in Sources */,
+				B7BF08EB21B0DBE300495F33 /* ShowLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3CWPWN79Q;
 				INFOPLIST_FILE = 1130New/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3CWPWN79Q;
 				INFOPLIST_FILE = 1130New/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
